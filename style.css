@@ -1,0 +1,176 @@
+.container{
+    background-color: rgb(0, 0, 0);
+    align-items: left;
+}
+
+.bgimage {
+    
+    height:100vh;
+    
+    background: url('img/cs.jpg');
+    background-color: aqua;
+    background-size:cover;
+    position:relative;
+}
+.bgimage h1{
+    align-items: left;
+}
+.navbar{
+    justify-content: space-between;
+    background-image: linear-gradient(180deg,#292727);
+    display: flex;
+    width: 100%;
+    height: 45px;
+    flex-wrap: wrap;
+}
+.navbar ul{
+    display: flex;
+    gap: 8rem;
+    margin-top: 14px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+.navbar.logo{
+    margin: 8px;
+}
+
+.navbar.logo a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar.logo a:hover{
+    color: aqua;
+}
+.navbar input{
+ padding: 10px;
+ height: 0;
+ width: 15rem;
+ border-radius: 15px;
+ margin-top: 10px;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 5rem;
+    text-align: left;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.col-lg-4{
+    text-underline-offset: ;
+}
+/* about section image css */
+body{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.imageAboutPage img{
+    height: 350px;
+}
+.imageAboutPage h1{
+    color: #000000;
+    font-size: xxx-large;
+
+}
+.imageAboutPage p{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+.imageAboutPage {
+background-color: rgb(92, 74, 205);
+display: flex;
+justify-content: space-between;
+padding: 40px;
+width: 60%;
+margin: 10rem auto 0 auto;
+object-fit: cn;
+   
+}
+/* services section css */
+.servicesText.card {
+   background-color: rgb(92, 74, 205);
+   display: flex;
+   justify-content: space-between;
+   padding: 40px;
+width: 60%;
+margin: 10rem auto 0 auto;
+object-fit: cn;
+    
+  }
+  .services h1{
+    font-size: xl-larger;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .container-fluid{
+    align-items: left;
+    
+  }
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
